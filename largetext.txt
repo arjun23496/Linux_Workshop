@@ -1,0 +1,39 @@
+What is Linux?
+
+Linux is, in simplest terms, an operating system. It is the software on a computer that enables applications and the computer operator to access the devices on the computer to perform desired functions. The operating system (OS) relays instructions from an application to, for instance, the computer's processor. The processor performs the instructed task, then sends the results back to the application via the operating system.
+
+Explained in these terms, Linux is very similar to other operating systems, such as Windows and OS X.
+
+But something sets Linux apart from these operating systems. The Linux operating system represented a $25 billion ecosystem in 2008. Since its inception in 1991, Linux has grown to become a force in computing, powering everything from the New York Stock Exchange to mobile phones to supercomputers to consumer devices.
+
+As an open operating system, Linux is developed collaboratively, meaning no one company is solely responsible for its development or ongoing support. Companies participating in the Linux economy share research and development costs with their partners and competitors. This spreading of development burden amongst individuals and companies has resulted in a large and efficient ecosystem and unheralded software innovation.
+
+Over 1,000 developers, from at least 100 different companies, contribute to every kernel release. In the past two years alone, over 3,200 developers from 200 companies have contributed to the kernel--which is just one small piece of a Linux distribution.
+
+This article will explore the various components of the Linux operating system, how they are created and work together, the communities of Linux, and Linux's incredible impact on the IT ecosystem.
+
+Where is Linux?
+
+One of the most noted properties of Linux is where it can be used. Windows and OS X are predominantly found on personal computing devices such as desktop and laptop computers. Other operating systems, such as Symbian, are found on small devices such as phones and PDAs, while mainframes and supercomputers found in major academic and corporate labs use specialized operating systems such as AS/400 and the Cray OS.
+
+Linux, which began its existence as a server OS and Has become useful as a desktop OS, can also be used on all of these devices. ‚ÄúFrom wristwatches to supercomputers,‚Äù is the popular description of Linux' capabilities.
+
+An abbreviated list of some of the popular electronic devices Linux is used on today includes:
+
+
+Dell Inspiron Mini 9 and 12	
+Garmin Nuvi 860, 880, and 5000	
+Google Android Dev Phone 1
+
+HP Mini 1000	
+Lenovo IdeaPad S9	
+Motorola MotoRokr EM35 Phone
+
+One Laptop Per Child XO2	
+Sony Bravia Television	
+Sony Reader
+
+TiVo Digital Video Recorder	
+Volvo In-Car Navigation System	
+Yamaha Motif Keyboard
+These are just the most recent examples of Linux-based devices available to consumers worldwide. This actual number of items that use Linux numbers in the thousands. The Linux Foundation is building a centralized database that will list all currently offered Linux-based products, as well as archive those devices that pioneered Linux-based electronics.
