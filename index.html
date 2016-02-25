@@ -40,13 +40,14 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
+<!-- Slideno / -->
 				<section>
 					<h1>Linux Workshop</h1>
 					<p>
 						<!-- <small>Presented by Arjun K and Sam Radhakrishnan</small> -->
 					</p>
 				</section>
-
+			<!-- Slideno /1 -->
 				<section>
 					<h2>Session I</h2>
 					<ul>
@@ -56,11 +57,12 @@
 						<li>Basic Linux shell commands</li>
 					</ul>
 				</section>
-
+			<!-- Slideno /2 -->
 				<section data-transition="slide" data-background="#ffffff" data-background-transition="zoom">
 					<h2>Introduction</h2>
 				</section>
 				<section>
+				<!-- Slideno /3/1 -->
 					<section>
 						<h2>FOSS</h2>
 						<ul>
@@ -76,6 +78,7 @@
 							</ul>
 						</aside>
 					</section>
+				<!-- Slideno /3/2 -->
 					<section>
 						<h3>Benefits</h3>
 						<ul>
@@ -86,6 +89,7 @@
 							<li>Give Users control over hardware</li>
 						</ul>
 					</section>
+				<!-- Slideno /3/3 -->
 					<section>
 						<h3>Licenses</h3>
 						<ul>
@@ -99,6 +103,7 @@
 							</aside>
 						</ul>
 					</section>
+				<!-- Slideno /3/4 -->
 					<section>
 						<h3>Examples</h3>
 							<ul>
@@ -114,20 +119,23 @@
 						</aside>
 					</section>
 				</section>
-				<section data-background="TuxWallpaper.jpg" data-background-size="1080px">
+				<section data-background="Wallpaper.jpg" data-background-size="1080px">
+					<!-- Slideno /4 -->
 					<section>
 						<h3>Linux</h3>
 						<aside class="notes">
 							Name of the penguin - TUX
 						</aside>
 					</section>
-					<section data-background="linusTorvalds.jpg" data-background-size="500px">
+					<!-- Slideno /4/1 -->
+					<section data-background="654321.jpg" data-background-size="500px">
 						<aside class="notes">
 							Name of the penguin - Linus Torvalds
 							In 1991, while attending the University of Helsinki, Torvalds became curious about operating systems and frustrated by the licensing of MINIX, which at the time limited it to educational use only. He began to work on his own operating system kernel, which eventually became the Linux kernel
 							Linus Torvalds had wanted to call his invention Freax, a portmanteau of "free", "freak", and "x" (as an allusion to Unix). During the start of his work on the system, he stored the files under the name "Freax" for about half of a year. Torvalds had already considered the name "Linux," but initially dismissed it as too egotistical
 						</aside>
 					</section>
+					<!-- Slideno /4/2 -->
 					<section>
 						<ul>
 							<li>Unix like operating system mostly POSIX compliant</li>
@@ -141,13 +149,15 @@
 							</ul>
 						</aside>
 					</section>
+					<!-- Slideno /4/3 -->
 					<section>
 						<ul>
 							<li>distributions include the Linux kernel, supporting utilities and libraries, and usually a large amount of application software to fulfill the distribution's intended use</li>
 							<li> Debian, Ubuntu, Linux Mint, Fedora, openSUSE, Arch Linux and Gentoo, together with commercial Red Hat Enterprise Linux and SUSE Linux Enterprise Server distributions</li>
 						</ul>
 					</section>	
-				</section>				
+				</section>
+				<!-- Slideno /5 -->				
 				<section data-transition="slide" data-background="#ffffff" data-background-transition="zoom">
 					<h2>Basic Linux Commands</h2>
 					<aside class="notes">
@@ -155,6 +165,7 @@
 					</aside>
 				</section>
 				<section>
+				<!-- Slideno /6 -->
 					<section>
 					<h3>Know the system</h3>
 						<ul>
@@ -167,6 +178,7 @@ Tue Jul 15 03:51:08 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
 					</code></pre>
 						</ul>
 					</section>
+				<!-- Slideno /6/1 -->
 					<section>
 						<ul>
 							<li><b><i>ls</i></b><br>The command “ls” stands for (List Directory Contents), List the contents of the folder, be it file or folder, from which it runs.<br></li>
@@ -181,6 +193,7 @@ Downloads                         Templates
 					</code></pre>
 						</ul>
 					</section>
+				<!-- Slideno /6/2 -->
 					<section>
 						<ul>
 							<li><b><i>ls -l</i></b><br>The command “ls -l” list the content of folder, in long listing fashion.<br></li>
@@ -209,9 +222,10 @@ drwxrwxrwx 1 root root  4096 Feb 24 10:52 test
 					</code></pre>
 						</ul>
 					</section>
+					<!-- Slideno /6/3 -->
 					<section>
 						<ul>
-							<li><b><i>ls -a</i></b><br>Command “ls -a“, list the content of folder, including hidden files starting with ‘.’.<br></li>
+							<li><b><i>ls -a</i></b><br>Command “ls -a“, list the content of folder, including hidden files(starting with ‘.’).<br></li>
 							<pre><code class="hljs" data-trim contenteditable>
 $ ls -l -a
 
@@ -245,6 +259,7 @@ drwxrwxrwx 1 root root  4096 Feb 24 10:52 test
 					</section>
 					
 				</section>
+				<!-- Slideno /7 -->
 				<section>
 					<section>
 						<h3>Know your way around</h3>
@@ -258,6 +273,7 @@ $ pwd
 					</code></pre>
 						</ul>
 					</section>
+					<!-- Slideno /7/1 -->
 					<section>	
 						<ul>
 							<li><b><i>cd</i></b><br> “cd” command stands for (change directory), it change the working directory to execute, copy, move write, read, etc. from terminal itself.<br></li>
@@ -272,6 +288,7 @@ $ pwd
 					</code></pre>
 						</ul>
 					</section>
+					<!-- Slideno /7/2 -->
 					<section>	
 						<ul>
 							<li><b><i>cd ..</i></b><br>changes working directory to the parent direcory<br></li>
@@ -289,6 +306,7 @@ $ pwd
 						ls -a and see the two hidden directories "." and ".." pointers to current and parent directory
 					</aside>
 					</section>
+					<!-- Slideno /7/3 -->
 					<section>	
 						<ul>
 							<li><b><i>cd ~</i></b><br>changes working directory to the home direcory<br></li>
@@ -306,6 +324,7 @@ $ pwd
 						home directory different for different users
 					</aside>
 					</section>
+					<!-- Slideno /7/4 -->
 					<section>	
 						<ul>
 							<li><b><i>cd &ltPath to the directory&gt</i></b><br>changes working directory to the directory given in the path<br></li>
@@ -321,6 +340,7 @@ $ pwd
 					</code></pre>
 						</ul>
 					</section>
+					<!-- Slideno /7/5 -->
 					<section>	
 						<ul>
 							<li><b><i>history</i></b><br>prints the history of the latest issued commands<br></li>
@@ -356,10 +376,347 @@ $ history
 					</section>
 				</section>
 				<section>
+				<!-- Slideno /8 -->
 					<section>
 						<h3>Viewing and manipulating</h3>
+						<ul>
+							<li><b><i>cat &ltfilename&gt</i></b><br>view the contents of the file in standard output<br></li>
+							<pre><code class="hljs" data-trim contenteditable>
+$ cat text.txt
+
+Hi I am A text file
+
+					</code></pre>
+						</ul>
+					<aside class="notes">
+						Not suitable for large files
+						show example
+						clear command
+					</aside>
+					</section>
+					<!-- Slideno /8/1 -->
+					<section>
+						<ul>
+							<li><b><i>more &ltfilename&gt</i></b><br>Allows file contents or piped output to be sent to the screen one page at a time.<br></li>
+							<pre><code class="hljs" data-trim contenteditable>
+$ more largetext.txt
+
+Linux is, in simplest terms, an operating system. It is the software on a 
+computer that enables applications and the computer operator to acces
+s the devices on the computer to perform desired functions. 
+The operating system (OS) relays instructions from an application to, for instance,
+ the computer's processor. The processor performs the instructed task, then sends 
+ the results back to the application via the operating system.
+ --More--(82%)
+					</code></pre>
+						</ul>
+					<aside class="notes">
+						q to quit instantly
+						enter to move down the file
+						disadvantage - no option for moving up
+					</aside>
+					</section>
+					<!-- Slideno /8/2 -->
+					<section>
+						<ul>
+							<li><b><i>less &ltfilename&gt</i></b><br>Similar to the more command, but the user can page up and down through the file.<br></li>
+							<pre><code class="hljs" data-trim contenteditable>
+$ less text.txt
+
+<!-- Show in Terminal -->
+
+					</code></pre>
+						</ul>
+					</section>
+					<!-- Slideno /8/3 -->
+					<section>
+						<ul>
+							<li><b><i>mkdir &ltdirectory_name&gt</i></b><br>Make a directory in the current working directory<br></li>
+							<pre><code class="hljs" data-trim contenteditable>
+$ ls -l
+
+total 5
+-rwxrwxrwx 1 root root 3163 Feb 25 12:52 largetext.txt
+drwxrwxrwx 1 root root    0 Feb 25 12:51 temp
+-rwxrwxrwx 1 root root   20 Feb 25 12:52 text.txt
+
+$ mkdir mydirectory
+
+$ls -l 
+
+total 5
+-rwxrwxrwx 1 root root 3163 Feb 25 12:52 largetext.txt
+drwxrwxrwx 1 root root    0 Feb 25 12:53 mydirectory
+drwxrwxrwx 1 root root    0 Feb 25 12:51 temp
+-rwxrwxrwx 1 root root   20 Feb 25 12:52 text.txt
+
+
+					</code></pre>
+						</ul>
+						<aside class="notes">
+							Making hidden directory - remember hidden directory
+						</aside>
+					</section>
+					<!-- Slideno /8/4 -->
+					<section>
+						<ul>
+							<li><b><i>cp &ltsource&gt &ltdestination&gt</i></b><br>Copy file in the source to the destination path<br></li>
+							<pre><code class="hljs" data-trim contenteditable>
+$ cp text.txt mydirectory/mytext.txt
+
+<!-- Show in Terminal -->
+
+					</code></pre>
+					<li>-r modifier is used to recursively copy files(used for directories)</li>
+						</ul>
+					</section>
+					<!-- Slideno /8/5 -->
+					<section>
+						<ul>
+							<li><b><i>mv &ltsource&gt &ltdestination&gt</i></b><br>Move file from the source to the destination path<br></li>
+							<pre><code class="hljs" data-trim contenteditable>
+$ mv text.txt mydirectory/movedtext.txt
+
+<!-- Show in Terminal -->
+
+					</code></pre>
+						</ul>
+					</section>
+					<!-- Slideno /8/6 -->
+					<section id="fragments">
+						<ul>
+							<h4>Rename ??</h4>
+							<p class="fragment">
+								<b><i>mv &ltinitial_name&gt &ltfinal_name&gt</i></b><br>rename the target from initname to finalname<br>
+								<pre><code class="hljs fragment" data-trim contenteditable>
+$ mv text.txt myrenamedtext.txt
+
+<!-- Show in Terminal -->
+
+					</code></pre>
+							</p>
+						</ul>
 					</section>
 				</section>
+				<section>
+				<!-- Slideno /9 -->
+					<h3>Manpages</h3>
+					<b><i>man &ltcommand_name&gt</i></b>
+					<ul>
+						<li>Search the manual to get documentation of the particular command.</li>
+						<li>The man pages are a user manual that is by default built into most Linux distributions (i.e., versions) and most other Unix-like operating systems during installation</li>
+					</ul>
+					<pre><code class="hljs" data-trim contenteditable>
+$ man man
+
+<!-- Show in Terminal -->
+
+					</code></pre>
+				</section>
+				<!-- Slideno /10 -->
+				<section data-transition="slide" data-background="#ffffff" data-background-transition="zoom">
+					<h2>Files and processes</h2>
+				</section>
+				<!-- Slideno /11 -->
+				<section>
+					<ul>
+						<li>On a Linux system, everything is a file; if something is not a file, it is a process</li>
+						<li>A wide range of input/output resources such as documents, directories, hard-drives, modems, keyboards, printers and even some inter-process and network communications are simple streams of bytes exposed through the filesystem name space.</li>
+					</ul>
+					<aside class="notes">
+						Show /dev/ folder hardisks,stdin,stdout etc<br>
+						Advantage of this approach
+					</aside>
+				</section>
+				<!-- Slideno /12 -->
+				<section>
+					<ul>
+						<li>The advantage of this approach is that the same set of tools, utilities and APIs can be used on a wide range of resources.</li>
+						<li>Now we see some types of files available in the linux system</li>
+					</ul>
+				</section>
+				<!-- Slideno /13 -->
+				<section>
+					<ul>
+						<li><b><u>Directories</u></b> : files that are lists of other files</li>
+						<li><b><u>Special files</u></b> : the mechanism used for input and output. Most special files are in /dev.</li>
+						<li><b><u>Links</u></b> : a system to make a file or directory visible in multiple parts of the system's file tree.</li>
+						<li><b><u>(Domain) sockets</u></b> : a special file type, similar to TCP/IP sockets, providing inter-process networking protected by the file system's access control.</li>
+						<li><b><u>Named pipes</u></b>: act more or less like sockets and form a way for processes to communicate with each other, without using network socket semantics</li>
+					</ul>
+				</section>
+				<!-- Slideno /14 -->
+				<section>
+					<ul>
+						<li>ls -l command shows the type of the file</li>
+					</ul>
+					<pre><code class="hljs" data-trim contenteditable>
+$ ls -l
+
+total 5
+-rwxrwxrwx 1 root root 3163 Feb 25 12:52 largetext.txt
+drwxrwxrwx 1 root root    0 Feb 25 12:51 temp
+-rwxrwxrwx 1 root root   20 Feb 25 12:52 text.txt
+
+					</code></pre>
+				</section>
+				<!-- Slideno /15 -->
+				<section>
+					
+					<table>
+						<thead>
+							<tr>
+								<th>Symbol</th>
+								<th>Meaning</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>-</td>
+								<td>Regular file</td>
+							</tr>
+							<tr>
+								<td>d</td>
+								<td>directory</td>
+							</tr>
+							<tr>
+								<td>l</td>
+								<td>link</td>
+							</tr>
+							<tr>
+								<td>c</td>
+								<td>Special File</td>
+							</tr>
+							<tr>
+								<td>s</td>
+								<td>Socket</td>
+							</tr>
+							<tr>
+								<td>p</td>
+								<td>Named Pipe</td>
+							</tr>
+							<tr>
+								<td>b</td>									
+								<td>Block device</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+				<!-- Slideno /16 -->
+				<section>
+					<h3>Processes</h3>
+					<ul>
+						<li>Processes carry out tasks within the operating system.</li>
+						<li>During the lifetime of a process it will use many system resources. It will use the CPUs in the system to run its instructions and the system's physical memory to hold it and its data.</li>
+						<li>Linux must keep track of the process itself and of the system resources that it has so that it can manage it and the other processes in the system fairly. </li>
+						<li>Managed using the task_struct data structure. The task vector is an array of pointers to every task_struct data structure in the system.</li>
+					</ul>
+					<aside class="notes">
+						Difference between program and process - static and dynamic entities
+					</aside>
+				</section>
+				<!-- Slideno /17 -->
+				<section>
+					<h4>States of processes</h4>
+					<ul>
+						<li><i>Running</i>- The process is either running (it is the current process in the system) or it is ready to run (it is waiting to be assigned to one of the system's CPUs).</li>
+						<li><i>Waiting</i>- The process is waiting for an event or for a resource. Linux differentiates between two types of waiting process; interruptible and uninterruptible.</li>
+						<li><i>Stopped</i>- The process has been stopped, usually by receiving a signal. A process that is being debugged can be in a stopped state.</li>
+						<li><i>Zombie </i>- This is a halted process which, for some reason, still has a task_struct data structure in the task vector. It is what it sounds like, a dead process.</li>
+					</ul>
+				</section>
+				<!-- Slideno /18 -->
+				<section>
+					<ul>
+					<b><i>ps -ef</i></b>
+					
+						<li>List the currently running processes</li>
+						<li>Currently running process can be stopped by using [CTR+C]  </li>
+						<pre><code class="hljs" data-trim contenteditable>
+$ ps -ef
+
+root     26551     5  0 Feb10 ?        00:03:41 [pdflush]
+root     26570     5  0 Feb10 ?        00:00:20 [pdflush]
+root     30344  3382  0 Feb21 ?        00:00:11 sshd: root@pts/14
+root     30365 30344  0 Feb21 pts/14   00:00:02 -bash
+root     30393  3382  0 Feb21 ?        00:00:10 sshd: root@pts/15
+
+					</code></pre>
+					</ul>
+					<aside class="notes">
+						Disadvantages - not realtime
+					</aside>
+				</section>
+				<!-- Slideno /19 -->
+				<section>
+					<ul>
+						<b><i>top</i></b>
+						<li>Realtime list of running processes</li>
+						<pre><code class="hljs" data-trim contenteditable>
+$ top
+
+<!-- Show in terminal -->
+
+					</code></pre>
+					</ul>
+					<aside class="notes">
+						Show htop also
+					</aside>
+				</section>
+				<!-- Slideno /20 -->				
+				<section data-transition="slide" data-background="#ffffff" data-background-transition="zoom">
+					<h2>Directory Structure</h2>
+				</section>
+				<!-- Slideno /21 -->
+				<section data-background="directory_structure.jpeg" data-background-size="750px">					
+				</section>
+				<!-- Slideno /22 -->
+				<section>
+					<ul>
+						<b><i><u>bin</u></i></b>
+						<li>User Command binaries</li>
+						<li>All the <i>essential</i> commands executed till now present in bin directory</li>
+						<b><i><u>boot</u></i></b>
+						<li>Static files of the bootloader</li>
+						<li>All the files necessary to boot the system</li>
+						<b><i><u>dev</u></i></b>
+						<li>Device files</li>
+						<li>All the devices of the system is in this directory</li>						
+					</ul>
+					<aside class="notes">
+						show in terminal
+					</aside>
+				</section>
+				<!-- Slideno /23 -->
+				<section>
+					<ul>
+						<b><i><u>home</u></i></b>
+						<li>User home directory</li>
+						<li>"cd ~" command directs to this directory</li>
+						<b><i><u>etc</u></i></b>
+						<li>Host specific system configuration</li>
+						<li>Extra software that is installed is found here</li>
+						<b><i><u>mount</u></i></b>
+						<li>Mount points of removable media</li>
+						<li>Pendrives and other removable media is found here</li>												
+					</ul>
+				</section>
+				<!-- Slideno /24 -->
+				<section>
+					<h2>Thank you</h2>
+				</section>
+<!-- Start of session 2-->
+			<section>
+					<h2>Session II</h2>
+					<ul>
+						<li>Redirecting Input and Output</li>
+						<li>Pipes</li>
+						<li>Filenames and Wildcards</li>
+						<li>Permissions</li>
+						<li>Installing and Removing Packages</li>
+						<li>Basics of using vim</li>
+					</ul>
+			</section>
 			<section>
 					<section>
 						<h3>Redirection of Input and Output</h3>
