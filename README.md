@@ -10,10 +10,9 @@
 ### **Session – II**
 
 * Redirecting Input and Output
-* Pipes
+* Pipes and Filters
 * Filenames and Wildcards
-* Manpages
 * Permissions
 * Installing and Removing Packages
-* Basics of using vim
+* Basics of vim
 
